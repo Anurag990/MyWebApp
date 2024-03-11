@@ -1,0 +1,1 @@
+package com.Myexample.MyWebApp.Repository;import com.Myexample.MyWebApp.Entity.students;import org.springframework.data.repository.CrudRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface UserRepository extends CrudRepository<students,Integer> {    public Long countById(Integer id);}

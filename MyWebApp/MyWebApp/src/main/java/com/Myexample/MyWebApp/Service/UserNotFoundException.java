@@ -1,0 +1,1 @@
+package com.Myexample.MyWebApp.Service;public class UserNotFoundException extends Throwable {    public UserNotFoundException(String message, int id) {        super(message);    }}
